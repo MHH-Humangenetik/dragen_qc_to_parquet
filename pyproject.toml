@@ -1,0 +1,9 @@
+[project]
+name = "dragen-qc-titration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "polars-lts-cpu>=1.12.0",
+]

@@ -1,0 +1,26 @@
+version = 1
+requires-python = ">=3.9"
+
+[[package]]
+name = "dragen-qc-titration"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "polars-lts-cpu" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "polars-lts-cpu", specifier = ">=1.12.0" }]
+
+[[package]]
+name = "polars-lts-cpu"
+version = "1.12.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d3/54/625e0199b3a2dc48395ae29ac35b023089d5a84c5dde1e5a2cc2ec69f3d2/polars_lts_cpu-1.12.0.tar.gz", hash = "sha256:e8f5152083e0804d10f7b8ffd371ef7b84a84291116c80818b01c32841782a34", size = 4090172 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2c/8b/706ac4c0b1215899aace382fa33a669649d51ef1c17c532be763b7dc055b/polars_lts_cpu-1.12.0-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:169bdb21c0e12296aab86bf43253ac578f756f6faf19b33293ca57ee97d02a59", size = 32501550 },
+    { url = "https://files.pythonhosted.org/packages/b9/0f/866b7761fb1353967f75cdde568f5168713c18d6f98259f883de6bbd0a81/polars_lts_cpu-1.12.0-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:139466a780cc44357011f047e0676e67770333d527db7ae88ad41957d00f76ed", size = 28887366 },
+    { url = "https://files.pythonhosted.org/packages/14/a9/857073500e1888dbec0afdc49a1411349b7ca27de36a0b41b180a601b09a/polars_lts_cpu-1.12.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4a24cb194a163b375ceb30be973dfbeace5755769654a26816cb3e459ebf3b49", size = 33771241 },
+    { url = "https://files.pythonhosted.org/packages/a7/2a/aa8b53d13295b66e06d3b0ea0078f1b1c44d80d3672f16517eed956ea346/polars_lts_cpu-1.12.0-cp39-abi3-manylinux_2_24_aarch64.whl", hash = "sha256:2b0677d035b42892187ec4449f0939cf9c133f9c46ae9d399c184b0a08fb6f38", size = 30479617 },
+    { url = "https://files.pythonhosted.org/packages/f0/84/d3bcee408214cf88c7273f830132f90c47921efb0c2569bb375246667ce0/polars_lts_cpu-1.12.0-cp39-abi3-win_amd64.whl", hash = "sha256:a58b911941347982c0e76e59557155360a7434ee45fe286919025dbe1d1364a7", size = 33926892 },
+]
